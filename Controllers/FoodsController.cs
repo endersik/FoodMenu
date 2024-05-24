@@ -9,7 +9,7 @@ using MenuApi.Models;
 
 namespace MenuApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Foods")]
     [ApiController]
     public class FoodsController : ControllerBase
     {

@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+.table {
+    background-color: burlywood;
+}
+
+#addFood {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#editForm {
+    display: none;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
