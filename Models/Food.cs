@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MenuApi.Models
 {
-    public class FoodItem
+    public class Food
     {
         public int Id { get; set; }
         public string? Name { get; set; }
